@@ -33,7 +33,3 @@ source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run src/app.py
 ```
-
-## Submission notes
-- Submit the GitHub repository URL on Canvas.
-- Ensure `Lab 2` is present and runnable from a clean environment.
