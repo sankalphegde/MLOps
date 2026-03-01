@@ -7,7 +7,7 @@ Repository containing all lab assignments for the MLOps course at Northeastern U
 MLOps/
 ├── Lab1/          # GitHub Lab: Temperature Converter with Testing & CI/CD
 ├── Lab 2/         # Streamlit ML Dashboard (customized Lab 2)
-├── Lab3/          # (Future lab)
+├── Lab 3/         # MLflow experiment tracking (customized Lab 3)
 └── README.md
 ```
 
@@ -34,8 +34,18 @@ MLOps/
 
 [📁 View Lab 2 →](./Lab%202/)
 
-### Lab 3: Coming Soon
-- **Status**: 🚧 Not started
+### Lab 3: MLflow Experiment Tracking ✅
+- **Topic**: Experiment Tracking, Model Logging, Artifact Management
+- **Description**: MLflow-based experiment tracking on breast cancer classification with multiple Random Forest hyperparameter runs.
+- **Technologies**: Python, MLflow, scikit-learn, matplotlib
+- **Key features**:
+  - tracks runs for `n_estimators` = 50, 100, 200
+  - logs metrics (`accuracy`, `f1_score`)
+  - logs confusion matrix artifacts for each run
+  - logs trained model artifacts in MLflow
+- **Status**: Complete
+
+[📁 View Lab 3 →](./Lab%203/)
 
 ## About This Repository
 
@@ -57,7 +67,7 @@ git clone https://github.com/sankalphegde/MLOps.git
 cd MLOps
 
 # Navigate to a specific lab
-cd "Lab 2"
+cd "Lab 3"
 
 # Follow the lab-specific README for setup and testing instructions
 ```

@@ -1,0 +1,5 @@
+venv/
+mlruns/
+mlflow.db
+*.png
+.DS_Store
