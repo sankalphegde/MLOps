@@ -2,6 +2,21 @@
 
 This lab trains a Random Forest classifier on the breast cancer dataset and logs runs to MLflow.
 
+## What Was Done in This Lab
+- Used `sklearn.datasets.load_breast_cancer` as the dataset.
+- Split data into train/test sets (`test_size=0.2`, `random_state=42`).
+- Trained 3 Random Forest models with different hyperparameters:
+  - `n_estimators=50`
+  - `n_estimators=100`
+  - `n_estimators=200`
+- Tracked experiments in MLflow (`Lab3_MLflow_Breast_Cancer`).
+- Logged for each run:
+  - Parameter: `n_estimators`
+  - Metrics: `accuracy`, `f1_score`
+  - Artifact: confusion matrix image (`confusion_matrix_<n>.png`)
+  - Model artifact: `model_<n>`
+- Compared the runs in MLflow UI at `http://127.0.0.1:5001`.
+
 ## Quick Verification
 Run exactly:
 
