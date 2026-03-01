@@ -2,7 +2,7 @@
 
 This lab trains a Random Forest classifier on the breast cancer dataset and logs runs to MLflow.
 
-## TA Quick Verification
+## Quick Verification
 Run exactly:
 
 ```bash
