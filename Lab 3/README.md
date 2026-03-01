@@ -51,9 +51,3 @@ Open: `http://127.0.0.1:5001`
 cd "/Users/sankalphegde/Desktop/MLOps_labs/MLOps/Lab 3"
 bash run_mlflow_ui.sh
 ```
-
-## Submission Proof (Recommended)
-Add screenshots in this folder for quick grading:
-- `training-runs.png` (MLflow Training Runs table showing 3 runs)
-- `run-details-metrics.png` (single run page showing metrics/params)
-- `run-artifacts.png` (artifacts panel showing confusion matrix file)
