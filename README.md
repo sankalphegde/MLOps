@@ -8,6 +8,7 @@ MLOps/
 ├── Lab1/          # GitHub Lab: Temperature Converter with Testing & CI/CD
 ├── Lab 2/         # Streamlit ML Dashboard (customized Lab 2)
 ├── Lab 3/         # MLflow experiment tracking (customized Lab 3)
+├── Lab 4/         # Docker Lab 1 (customized)
 └── README.md
 ```
 
@@ -46,6 +47,17 @@ MLOps/
 - **Status**: Complete
 
 [📁 View Lab 3 →](./Lab%203/)
+
+### Lab 4: Docker Lab 1 (Customized) ✅
+- **Topic**: Docker, Containerization
+- **Description**: Containerized Python app with environment-driven output.
+- **Technologies**: Docker, Python
+- **Key features**:
+  - environment variables for `APP_NAME` and `CITY`
+  - prints runtime metadata (UTC time, Python version, platform)
+- **Status**: Complete
+
+[📁 View Lab 4 →](./Lab%204/)
 
 ## About This Repository
 
