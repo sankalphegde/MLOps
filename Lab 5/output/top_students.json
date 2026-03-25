@@ -1,0 +1,19 @@
+{
+  "students": [
+    {
+      "student": "Sophia",
+      "average": 93.67,
+      "status": "pass"
+    },
+    {
+      "student": "Noah",
+      "average": 92.33,
+      "status": "pass"
+    },
+    {
+      "student": "Olivia",
+      "average": 89.0,
+      "status": "pass"
+    }
+  ]
+}

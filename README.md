@@ -9,6 +9,7 @@ MLOps/
 ├── Lab 2/         # Streamlit ML Dashboard (customized Lab 2)
 ├── Lab 3/         # MLflow experiment tracking (customized Lab 3)
 ├── Lab 4/         # Docker Lab 1 (customized)
+├── Lab 5/         # Airflow student scores pipeline (customized)
 └── README.md
 ```
 
@@ -59,6 +60,19 @@ MLOps/
 
 [📁 View Lab 4 →](./Lab%204/)
 
+### Lab 5: Airflow Student Scores Pipeline ✅
+- **Topic**: Airflow, Workflow Orchestration, Data Pipelines
+- **Description**: Custom Airflow DAG that creates a student scores dataset, cleans it, computes subject averages, identifies top students, and writes a summary report.
+- **Technologies**: Apache Airflow, Docker Compose, Python
+- **Key features**:
+  - custom DAG name `student_scores_pipeline`
+  - multiple transformation and reporting tasks
+  - generated outputs: cleaned CSV, subject averages JSON, top students JSON, final text report
+  - Dockerized Airflow setup for local execution
+- **Status**: Complete
+
+[📁 View Lab 5 →](./Lab%205/)
+
 ## About This Repository
 
 Each completed lab is contained in its own folder with:
@@ -79,7 +93,7 @@ git clone https://github.com/sankalphegde/MLOps.git
 cd MLOps
 
 # Navigate to a specific lab
-cd "Lab 3"
+cd "Lab 5"
 
 # Follow the lab-specific README for setup and testing instructions
 ```

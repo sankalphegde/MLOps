@@ -1,0 +1,15 @@
+Student Scores Summary Report
+Generated: 2026-03-25T17:08:05.238368Z
+
+Subject Averages:
+- Math: 84.29
+- Science: 85.0
+- English: 85.86
+
+Top 3 Students:
+- Sophia: average=93.67, status=pass
+- Noah: average=92.33, status=pass
+- Olivia: average=89.0, status=pass
+
+Pass Count: 6
+Fail Count: 1
