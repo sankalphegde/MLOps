@@ -25,7 +25,7 @@ jobs:
 
     - name: Run Tests and Generate XML Report
       run: |
-        pytest test/test_pytest.py --junitxml=pytest-report.xml
+        pytest Lab1/test/test_pytest.py --junitxml=pytest-report.xml
       continue-on-error: false
 
     - name: Upload Test Results
