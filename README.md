@@ -15,7 +15,7 @@ MLOps/
 
 ## Labs
 
-### Lab 1: Temperature Converter with GitHub Actions ✅
+### Lab 1: Temperature Converter with GitHub Actions 
 - **Topic**: Version Control, Testing, CI/CD
 - **Description**: Temperature conversion functions with automated testing using pytest and unittest
 - **Technologies**: Python, pytest, unittest, GitHub Actions
@@ -23,7 +23,7 @@ MLOps/
 
 [📁 View Lab 1 →](./Lab1/)
 
-### Lab 2: Breast Cancer Prediction Dashboard ✅
+### Lab 2: Breast Cancer Prediction Dashboard 
 - **Topic**: Streamlit, Model Comparison, ML Evaluation
 - **Description**: Custom Streamlit app comparing Logistic Regression and Random Forest on breast cancer classification.
 - **Technologies**: Python, Streamlit, scikit-learn, pandas, matplotlib, seaborn
@@ -36,7 +36,7 @@ MLOps/
 
 [📁 View Lab 2 →](./Lab%202/)
 
-### Lab 3: MLflow Experiment Tracking ✅
+### Lab 3: MLflow Experiment Tracking 
 - **Topic**: Experiment Tracking, Model Logging, Artifact Management
 - **Description**: MLflow-based experiment tracking on breast cancer classification with multiple Random Forest hyperparameter runs.
 - **Technologies**: Python, MLflow, scikit-learn, matplotlib
@@ -49,7 +49,7 @@ MLOps/
 
 [📁 View Lab 3 →](./Lab%203/)
 
-### Lab 4: Docker Lab 1 (Customized) ✅
+### Lab 4: Docker Lab 1 (Customized) 
 - **Topic**: Docker, Containerization
 - **Description**: Containerized Python app with environment-driven output.
 - **Technologies**: Docker, Python
@@ -60,7 +60,7 @@ MLOps/
 
 [📁 View Lab 4 →](./Lab%204/)
 
-### Lab 5: Airflow Student Scores Pipeline ✅
+### Lab 5: Airflow Student Scores Pipeline 
 - **Topic**: Airflow, Workflow Orchestration, Data Pipelines
 - **Description**: Custom Airflow DAG that creates a student scores dataset, cleans it, computes subject averages, identifies top students, and writes a summary report.
 - **Technologies**: Apache Airflow, Docker Compose, Python
