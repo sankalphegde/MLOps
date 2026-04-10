@@ -1,0 +1,21 @@
+{
+  "model_name": "iris-classifier-sankalp",
+  "model_version": "1.0.0",
+  "framework": "scikit-learn",
+  "algorithm": "RandomForestClassifier",
+  "n_estimators": 100,
+  "max_depth": 5,
+  "random_state": 42,
+  "test_accuracy": 0.9333,
+  "features": {
+    "sepal_length_cm": "Length of the sepal in centimetres",
+    "sepal_width_cm": "Width of the sepal in centimetres",
+    "petal_length_cm": "Length of the petal in centimetres",
+    "petal_width_cm": "Width of the petal in centimetres"
+  },
+  "classes": {
+    "0": "setosa",
+    "1": "versicolor",
+    "2": "virginica"
+  }
+}

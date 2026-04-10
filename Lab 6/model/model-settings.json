@@ -1,0 +1,8 @@
+{
+  "name": "iris-classifier-sankalp",
+  "implementation": "mlserver_sklearn.SKLearnModel",
+  "parameters": {
+    "version": "1.0.0",
+    "uri": "./model.joblib"
+  }
+}
