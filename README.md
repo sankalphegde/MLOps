@@ -10,6 +10,7 @@ MLOps/
 ├── Lab 3/         # MLflow experiment tracking (customized Lab 3)
 ├── Lab 4/         # Docker Lab 1 (customized)
 ├── Lab 5/         # Airflow student scores pipeline (customized)
+├── Lab 6/         # KServe model serving: Iris classifier (customized)
 └── README.md
 ```
 
@@ -72,6 +73,21 @@ MLOps/
 - **Status**: Complete
 
 [📁 View Lab 5 →](./Lab%205/)
+
+### Lab 6: KServe Model Serving: Iris Classifier
+- **Topic**: Model Serving, Kubernetes, Inference APIs
+- **Description**: Custom scikit-learn Iris classifier deployed as a live HTTP inference service using KServe on Kubernetes.
+- **Technologies**: Python, scikit-learn, KServe, Kubernetes, joblib
+- **Key features**:
+  - custom service name `iris-classifier-sankalp`
+  - trained `RandomForestClassifier` with 93.33% test accuracy
+  - autoscaling annotations (min 1, max 3 replicas)
+  - resource requests and limits configured
+  - standard and edge-case inference payloads with expected predictions
+  - model version label for multi-version tracking
+- **Status**: Complete
+
+[📁 View Lab 6 →](./Lab%206/)
 
 ## About This Repository
 
